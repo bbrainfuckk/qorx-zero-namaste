@@ -7,6 +7,8 @@ project decisions in the browser, retrieves only the relevant records, builds
 an inspectable proof frame, and sends that bounded frame—not the full memory
 store—to the configured model.
 
+**Live demo:** https://bbrainfuckk.github.io/qorx-zero-namaste/
+
 This repository is the clean-room **NamasteDev Hackathon Edition**. It is a
 complete application and does not contain or depend on private Qorx source,
 compiler code, binaries, or datasets.
@@ -30,6 +32,10 @@ Requirements: Node.js 22.13 or newer.
     npm run dev
 
 Open the local URL printed by Vinext.
+
+`npm run build:pages` creates the dependency-free public demo build used by
+GitHub Pages. It keeps the full IndexedDB and proof-gating flow and falls back
+to the local proof preview when no server-side provider is available.
 
 To enable the live provider response, copy .env.example to .env.local and set a
 new server-side key:

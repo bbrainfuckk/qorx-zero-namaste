@@ -39,7 +39,7 @@ Cloudflare Workers-compatible runtime, Node.js test runner.
 
 ## Links to add
 
-- Live demo:
-- Public repository:
+- Live demo: https://bbrainfuckk.github.io/qorx-zero-namaste/
+- Public repository: https://github.com/bbrainfuckk/qorx-zero-namaste
 - Demo video:
-- Pitch deck:
+- Pitch deck: https://github.com/bbrainfuckk/qorx-zero-namaste/blob/main/docs/Qorx-Zero-Pitch-Deck.pptx

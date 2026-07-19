@@ -9,9 +9,10 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
+    "build:pages": "vite build --config vite.pages.config.ts",
     "start": "vinext start",
     "test": "node --test tests/memory.test.ts",
-    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern gh-pages --ignore-pattern .next",
     "check": "npm run lint && npm test && npm run build"
   },
   "dependencies": {
