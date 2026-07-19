@@ -37,9 +37,9 @@ to implement, test, review, and document this Hackathon Edition.
 Codex, GPT-5.6 Terra, OpenAI Responses API, React, Vinext, IndexedDB,
 Cloudflare Workers-compatible runtime, Node.js test runner.
 
-## Links to add
+## Submission links
 
 - Live demo: https://bbrainfuckk.github.io/qorx-zero-namaste/
 - Public repository: https://github.com/bbrainfuckk/qorx-zero-namaste
-- Demo video:
+- Demo video: https://youtu.be/NjWIGFTAFok
 - Pitch deck: https://github.com/bbrainfuckk/qorx-zero-namaste/blob/main/docs/Qorx-Zero-Pitch-Deck.pptx

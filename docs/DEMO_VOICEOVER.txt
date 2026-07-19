@@ -1,0 +1,15 @@
+Most AI tools force one of two bad choices: repeat your project context in every session, or hand your entire memory store to a remote service. Qorx Zero offers a smaller, more honest boundary. The memory stays on your device. Only the proof needed for the current question can leave it.
+
+This is the public NamasteDev Hackathon Edition. The live demo begins with three local memories in IndexedDB. They cover launch priority, accessibility, and the clean-room boundary for the public repository. I can add a fourth decision: the launch video must stay under three minutes. I tag it, mark it critical, save it, and it immediately becomes part of this browser profile. A reload keeps it. No account or remote database is involved.
+
+Now I ask: what must we ship before adding analytics? Qorx Zero ranks every eligible record with a transparent combination of keyword overlap, user-set importance, and recency. Unrelated records do not qualify. Here, one matching memory enters the proof frame. The interface shows the selected count, the exact character count, and the deterministic source hash beside the answer. The full local store never enters the request.
+
+The boundary is visible when evidence is missing. I ask for a production database password. There is no supporting local memory, so the proof frame is empty and Qorx Zero refuses to invent an answer. No proof means no claim.
+
+Forgetting is equally explicit. I delete the video-length memory, then ask how many minutes the video can run. The deleted record is gone from IndexedDB and cannot appear in the next proof frame. Records can also expire automatically through a user-selected time to live.
+
+The public judge mirror cannot contain a server secret, so it safely shows the local proof-preview path. The same repository includes a guarded OpenAI Responses API route for GPT-5.6 Terra. It validates question and frame sizes, chooses the provider from server configuration, and instructs the model to use only the visible proof.
+
+Codex with GPT-5.6 helped plan, implement, test, and document this clean-room edition. Seven automated tests cover ranking, expiry, proof caps, and explicit forgetting, with an independent notebook for validation. The public AGPL repository excludes the private Qorx compiler, routing, datasets, and research systems.
+
+Qorx Zero. Keep the memory. Send the proof.

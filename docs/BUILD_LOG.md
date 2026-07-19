@@ -18,8 +18,8 @@ This Hackathon Edition was planned and implemented in Codex with GPT-5.6. The
 new work is isolated in this repository so its commits and session evidence can
 be shown independently from earlier private Qorx research.
 
-Add the final public Codex task/session reference here before submission:
+Submission evidence:
 
-- Codex session ID:
-- Public commit:
-- Feedback submitted:
+- Codex task: retained in the entrant's signed-in Codex history.
+- Public implementation commit: `e6afa323131bd0e770c316097b9d5dee7001b5e1`.
+- Demo video: https://youtu.be/NjWIGFTAFok

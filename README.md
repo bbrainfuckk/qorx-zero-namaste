@@ -9,6 +9,8 @@ store—to the configured model.
 
 **Live demo:** https://bbrainfuckk.github.io/qorx-zero-namaste/
 
+**Demo video:** https://youtu.be/NjWIGFTAFok
+
 This repository is the clean-room **NamasteDev Hackathon Edition**. It is a
 complete application and does not contain or depend on private Qorx source,
 compiler code, binaries, or datasets.
@@ -74,6 +76,7 @@ synthetic data.
 
 - [Architecture](docs/ARCHITECTURE.md)
 - [Three-minute demo script](docs/DEMO_SCRIPT.md)
+- [Recorded demo voiceover](docs/DEMO_VOICEOVER.txt)
 - [Pitch deck](docs/Qorx-Zero-Pitch-Deck.pptx)
 - [NamasteDev submission copy](docs/SUBMISSION_NAMASTE.md)
 - [Public/private IP boundary](docs/IP_BOUNDARY.md)
